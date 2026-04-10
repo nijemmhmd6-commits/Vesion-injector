@@ -1,7 +1,7 @@
 @echo off
-call npm i -g pnpm 
-call git clone https://github.com/nijemmhmd6-commits/Version
-cd Vesion
+call npm i -g pnpm
+git clone https://github.com/nijemmhmd6-commits/Version.git
+cd Version
 call pnpm install
 call pnpm build
 call pnpm inject
